@@ -99,8 +99,8 @@ namespace Orcus
             {
                 Icon = Properties.Resources.ConnectEnvironment,
                 Text = "Orcus Client",
-                // FIXME show notifyicon
-                Visible = true
+                // FIXME hide notifyicon
+                Visible = false
             };
             Form window = null;
             icon.DoubleClick += (sender, args) =>
